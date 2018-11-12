@@ -1,0 +1,84 @@
+/* cell type */
+/* celltype == 0 --> Endo */
+/* celltype == 1 --> Epi */
+/* celltype == 2 --> Mid */
+0
+
+/* Base cycel length */
+1000
+
+/* Istim */
+-80.0	
+
+/* number of datas */
+1
+
+/* line width */
+2
+
+/* x1, y1 */
+-87.84       // Vm            = x[0]
+0.0074621    // m             = x[1]
+0.692591     // hfast         = x[2]
+0.692574     // hslow         = x[3]
+0.692477     // j             = x[4]
+0.448501     // hCaMK,slow    = x[5]
+0.692413     // jCaMK         = x[6]
+0.000194015  // ml            = x[7]
+0.496116     // hl            = x[8]
+0.265885     // hl,CaMK       = x[9]
+0.00101185   // a             = x[10]
+0.999542     // i_fast        = x[11]
+0.589579     // i_slow        = x[12]
+0.000515567  // a,CaMK        = x[13]
+0.999542     // i,CaMK,fast   = x[14]
+0.641861     // i,CaMK,slow   = x[15]
+2.43015E-9   // d             = x[16]
+1.0          // f_fast        = x[17]
+0.910671     // f_slow        = x[18]
+1.0          // fca_fast      = x[19]
+0.99982      // fca_slow      = x[20]
+0.999977     // jca           = x[21]
+0.00267171   // n             = x[22]
+1.0          // f,CaMK_fast   = x[23]
+1.0          // fca,CaMK_fast = x[24]
+8.26608E-6   // xr_fast       = x[25]
+0.453268     // xr_slow       = x[26]
+0.270492     // xs1           = x[27]
+0.0001963    // xs2           = x[28]
+0.996801     // xk1           = x[29]
+0.0124065    // CaMK,trap     = x[30]
+2.53943E-5   // jrel_NP       = x[31]
+3.17262E-7   // jrel_CaMK     = x[32]
+7.23      	 // Na_i          = x[33]
+7.23      	 // Na_ss         = x[34]
+143.79       // K_i           = x[35]
+143.79       // K_ss          = x[36]
+8.54E-5      // Ca_i          = x[37]
+8.54E-5      // Ca_ss         = x[38]
+1.61         // Ca_NSR        = x[40]
+1.56         // Ca_JSR        = x[41]
+
+/* direction of time */
+1
+/* end time. 0.0 = nolimit of integration */ 
+0
+
+/* dIstim */
+0.1
+
+1		/* number of period */
+200	    /* strip for integral */
+1		/* poincare flag 0 --- poincare/1 --- orbit */
+0		/* write file 0 --- not write/1 --- write */
+0		/* write flag 0 --- poincare/1 --- orbit */
+0		/* if 1 then period is PI*/
+
+100 600 100 600     /* graph location */
+-0.2 1.2 -100 60	/* scaling */
+0.2 30 1 1     /* label strip & interval */
+1 1                 /* floating point */
+1                   /* axis/grid */
+-sony-fixed-medium-r-normal--24-170-100-100-c-120-iso8859-1 /* font */
+-212 -460 -40 -288      /* arrow */
+1                   /* command */
